@@ -4,7 +4,8 @@
   "description": "API do projeto",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/ArthurPossetti/apiprojeto#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
   }
 }
