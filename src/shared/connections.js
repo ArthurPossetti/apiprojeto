@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 exports.databaseCredentials = {
-    host: "localhost",
+    host: "dbarthur.cbxtqvy4b0ku.sa-east-1.rds.amazonaws.com",
     database: "cliente",
-    user: "root",
-    password: "dale1234",
+    user: "adminArthur",
+    password: "Euamoanana123",
     dialect: "mysql"
 };
 //Conectando no banco de dados
